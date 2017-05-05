@@ -6,14 +6,13 @@
 		<title>Level 5.1</title>
 	</head>
 	<body>
-		<div class="box hereTyping">
-			<div class="large">I'M</div>
-			<div class="large">HERE</div>
-			<div class="large">TYPING</div>
+		</head>
+	<body>
+		<div class="hereTyping">
+			<p>I'M <br> HERE <br> TYPING</p>
 		</div>
-		<div class="box secondHalf">
-			<div class="increase">in the house.</div>
-			<div class="littleBigger">It's nice out: warm sun on cold snow. First day of spring or last ow winter. My legs run down the stairs and out the door, my top half here</div>
+		<div class="secondHalf">
+			in the house. It's nice out: warm sun on cold snow. First day of spring or last ow winter. My legs run down the stairs and out the door, my top half here
 		</div>
 		
 		<!-- NAVIGATION -->
@@ -30,43 +29,147 @@
 </html>
 
 <style type="text/css">
-.box{
-
-	display: inline-block;
-}
 .hereTyping{
-	height: 100%;
+	display: inline-block;
 	width: 45%;
 	text-align: right;
+	font-size: 100px;
+	color: #b20707;
+
+	position: absolute;
+		top: 0px;
 
 }
-.large{
-	font-size: 10em;
-}
+
 .secondHalf{
-	text-align: left;
-	font-size: 1em;
-	font-family: helvetica;
-	height: 100%;
+	display: inline-block;
 	width: 45%;
-	margin-left: 50%;
-	margin-top: -70%;
-}
-.increase{
-	font-size: 5em;
+	text-align: left;
+	font-size: 20px;
 	color: white;
-}
-.increase:hover{
-	color: brown;
-}
-.littleBigger{
-	margin-top: 8%;
-	font-size: 2em;
-	color: white;
-}
-.littleBigger:hover{
-	color: lightblue;
+
+	position: absolute;
+		top: 20%;
+		left: 47%;
+
 }
 
+.secondHalf:hover{
+	color: #0609b2;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1550px) {
+
+
+
+}
+
+@media screen and (max-width: 1350px) {
+.hereTyping{
+	font-size: 100px;
+
+	position: absolute;
+		top: 0px;
+
+}
+
+.secondHalf{
+	font-size: 20px;
+	color: white;
+
+	position: absolute;
+		top: 20%;
+		left: 47%;
+
+}
+
+}
+
+@media screen and (max-width: 840px) {
+
+.hereTyping{
+	font-size: 50px;
+	position: absolute;
+		top: 6%;
+
+}
+
+.secondHalf{
+	font-size: 10px;
+	color: white;
+
+	position: absolute;
+		top: 15%;
+		left: 47%;
+
+}
+}
+
+@media screen and (max-width: 768px) {
+.hereTyping{
+	font-size: 50px;
+	position: absolute;
+		top: 6%;
+
+}
+
+.secondHalf{
+	font-size: 10px;
+	color: white;
+
+	position: absolute;
+		top: 15%;
+		left: 47%;
+
+}
+
+
+}
+
+@media screen and (max-width: 600px) {
+.hereTyping{
+	font-size: 50px;
+	position: absolute;
+		top: 6%;
+
+}
+
+.secondHalf{
+	font-size: 10px;
+	color: white;
+
+	position: absolute;
+		top: 15%;
+		left: 47%;
+
+}
+
+
+}
+
+@media screen and (max-width: 480px) {
+.hereTyping{
+	font-size: 50px;
+	position: absolute;
+		top: 6%;
+
+}
+
+.secondHalf{
+	font-size: 10px;
+	color: white;
+
+	position: absolute;
+		top: 15%;
+		left: 47%;
+
+}
+
+
+}
 
 </style>
