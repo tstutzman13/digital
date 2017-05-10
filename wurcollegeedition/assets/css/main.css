@@ -132,14 +132,18 @@ width: 60px ;
 @media screen and (max-width: 600px) {
 
 #left {
-  font-size: 12px;
-  height: 70px;
+  font-size: 15px;
+  height: 100px;
+
+  bottom: 30px;
   
 }
 
 #or{
 height: 20px ; 
 width: 40px ;
+
+bottom: 90px;
 
 }
 
@@ -149,8 +153,10 @@ width: 40px ;
 }
 
 #right {
-  font-size: 12px;
-  height: 70px;
+  font-size: 15px;
+  height: 100px;
+
+  bottom: 30px;
 }
 
 }
