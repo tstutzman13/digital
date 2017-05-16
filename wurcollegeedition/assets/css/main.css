@@ -178,6 +178,7 @@ height: 20px ;
 width: 40px ;
 
 bottom: 110px;
+left: 45%
 
 }
 
@@ -197,7 +198,7 @@ bottom: 110px;
 
 }
 
-/* Smartphones (portrait and landscape) ———– */
+/* Smartphones (landscape) ———– */
 @media only screen and (min-width : 321px){
 #left {
   font-size: 14px;
@@ -216,6 +217,7 @@ bottom: 90px;
 }
 
 #header{
+  margin-top: 20px;
   height: 100px;
   width: 200px;
 }
