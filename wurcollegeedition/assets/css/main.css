@@ -162,6 +162,38 @@ bottom: 110px;
 
 }
 
+/* Smartphones (landscape) ———– */
+@media only screen and (min-width : 321px) and (max-width: 500px){
+#left {
+  font-size: 14px;
+  height: 100px;
+
+  bottom: 30px;
+  background-color: lightgreen;
+}
+
+#or{
+height: 20px ; 
+width: 40px ;
+
+bottom: 90px;
+
+}
+
+#header{
+  margin-top: 0px;
+  height: 100px;
+  width: 200px;
+}
+
+#right {
+  font-size: 14px;
+  height: 100px;
+
+  bottom: 30px;
+}
+}
+
 /* Smartphones (portrait) ———– */
 @media screen and (max-width : 320px) {
 
@@ -198,34 +230,4 @@ left: 45%
 
 }
 
-/* Smartphones (landscape) ———– */
-@media only screen and (min-width : 321px){
-#left {
-  font-size: 14px;
-  height: 100px;
 
-  bottom: 30px;
-  background-color: lightblue;
-}
-
-#or{
-height: 20px ; 
-width: 40px ;
-
-bottom: 90px;
-
-}
-
-#header{
-  margin-top: 20px;
-  height: 100px;
-  width: 200px;
-}
-
-#right {
-  font-size: 14px;
-  height: 100px;
-
-  bottom: 30px;
-}
-}
