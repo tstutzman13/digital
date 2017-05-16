@@ -135,7 +135,7 @@ width: 60px ;
   font-size: 15px;
   height: 100px;
 
-  bottom: 30px;
+  bottom: 50px;
   
 }
 
@@ -143,11 +143,12 @@ width: 60px ;
 height: 20px ; 
 width: 40px ;
 
-bottom: 90px;
+bottom: 110px;
 
 }
 
 #header{
+  margin-top: 100px;
   height: 200px;
   width: 325px;
 }
@@ -156,7 +157,7 @@ bottom: 90px;
   font-size: 15px;
   height: 100px;
 
-  bottom: 30px;
+  bottom: 50px;
 }
 
 }
