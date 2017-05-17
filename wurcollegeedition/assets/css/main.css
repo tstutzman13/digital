@@ -163,13 +163,13 @@ bottom: 110px;
 }
 
 /* Smartphones (landscape) ———– */
-@media only screen and (min-width : 321px) {
+@media screen and (min-width : 321px) {
 #left {
   font-size: 14px;
   height: 100px;
 
   bottom: 30px;
-  background-color: lightgreen;
+  background-color: lightyellow;
 }
 
 #or{
@@ -181,9 +181,8 @@ bottom: 90px;
 }
 
 #header{
-  margin-top: 0px;
-  height: 100px;
-  width: 200px;
+  height: 150px;
+  width: 300px;
 }
 
 #right {
