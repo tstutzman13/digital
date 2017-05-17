@@ -163,7 +163,7 @@ bottom: 110px;
 }
 
 /* Smartphones (landscape) ———– */
-@media screen and (max-width: 450px){
+@media screen and (min-device-width: 321px){
 #left {
   font-size: 14px;
   height: 100px;
