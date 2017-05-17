@@ -162,7 +162,7 @@ bottom: 110px;
 
 }
 
-/* Smartphones (landscape) ———– */
+/* Smartphones (landscape) ———– 
 @media screen and (min-device-width: 321px){
 #left {
   font-size: 14px;
@@ -192,7 +192,7 @@ bottom: 90px;
   bottom: 30px;
 }
 }
-
+*/
 /* Smartphones (portrait) ———– */
 @media screen and (max-width : 320px) {
 
