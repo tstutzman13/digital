@@ -109,8 +109,8 @@ width: 80px ;
 #left {
   font-size: 15px;
 
-  bottom: 80px;
-  background-color: lightyellow;
+  bottom: 120px;
+  background-color: lightgreen;
   
 }
 
@@ -119,11 +119,11 @@ width: 80px ;
 height: 30px ; 
 width: 60px ;
 
-bottom: 140px;
+bottom: 155px;
 }
 
 #header{
-  margin-top: 140px;
+  margin-top: 150px;
   height: 250px;
   width: 525px;
 }
@@ -131,7 +131,7 @@ bottom: 140px;
 #right {
   font-size: 15px;
 
-  bottom: 80px;
+  bottom: 120px;
 }
 
 }
